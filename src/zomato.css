@@ -1,0 +1,355 @@
+*{
+    font-family: okra, Helvetica, sans-serif;
+}
+.poster{
+    background: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png') no-repeat;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 10%;
+}
+.navbar{
+    display: flex;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.bodycontent{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.bodycontent img{
+    height: 70px;
+}
+.inputcontainer{
+    display: flex;
+    width: 60%;
+    gap: 20px;
+    padding: 4px 1%;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.location{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.inputcontainer input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 90%;
+}
+.search{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.poster select{
+    border: 0;
+    width: 100%;
+    outline: none;
+    color: rgba(0, 0, 0, 0.452);
+    font-weight: 500;
+}
+
+/* second section zomato */
+
+.section2{
+    width: 80% ;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    padding-bottom: 5%;
+}
+.innersec2{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.seccontent1{
+    width: 97%;
+    height: 230px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.141);
+}
+.seccontent1 img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.seccontent1 .head{
+    font-size: 20px;
+    padding-top:5px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+}
+.seccontent1 .para{
+    padding-left:15px;
+    padding-bottom:8px;
+    font-size: 15px;
+}
+
+/* third section zomato */
+
+.section3{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.innersec3{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+}
+.section3 .subheading{
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    display: flex;
+    gap: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+.section3 .left{
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: rgba(54, 54, 54, 0.786);
+}
+.section3 .right{
+    display: flex;
+    color: rgb(224, 53, 70);
+}
+.section3 .cardsec3{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section3 .card{
+    width: 21%;
+    height: 300px;
+    border: 0;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+.section3 .cardimg1{
+    background-image: url('/zomato.avif');
+}
+.section3 .cardimg2{
+    background-image: url('/zomato1.avif');
+}
+.section3 .cardimg3{
+    background-image: url('/zomato2.avif');
+}
+.section3 .cardimg4{
+    background-image: url('/zomato3.avif');
+}
+
+/* fourth section zomato */
+
+.section4{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 3%;
+}
+.innersec4{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.innersec4 .head{
+    color: rgb(54, 54, 54);
+}
+.innersec4 .cardsec{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2%;
+    margin-top: 20px;
+}
+.innersec4 .card4{
+    width: 30%;
+    height:80px;
+    display: flex;
+    padding-right: 1%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.152);
+    margin-bottom: 2%;
+}
+.innersec4 .cardContent{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    gap: 2px;
+    padding: 10px;
+}
+.innersec4 .moreCard{
+    display: flex;
+    justify-content: center;
+}
+
+    /* fifth section zomato  */
+
+.section5{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 3%;
+    background-color: rgb(255, 251, 247);
+}
+.innersec5{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.innersec5 .right5{
+    width: 45%;
+}
+.radiobtn5{
+    height: 20px;
+    accent-color:rgb(224, 53, 70); ;
+}
+.radiomain5{
+    width: 40%;
+    display: flex ;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.emailinp{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 4%;
+}
+.emailinp input{
+    height: 6vh;
+    width: 70%;
+    padding: 3px 5px;
+    border: 0;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 5px;
+}
+.emailinp button{
+    height: 6vh;
+    padding: 0 10px;
+    background-color: rgb(224, 53, 70);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.dowenloadcard{
+    display: flex ;
+    width: 50%;
+    height: 5vh;
+    justify-content: space-between;
+}
+    /* sixth section zomato  */
+
+.section6{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.innersec6{
+    width: 80%;
+    margin: auto;
+
+}
+.footer{
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+}
+.innerfooter{
+    height: 100%;
+    width: 80%;
+    padding: 2% 0px;
+    margin: auto;
+}
+.innerfooter1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.innerfooter1 .btns{
+    display: flex;
+    gap: 10px;
+}
+.btns img{
+    height: 2vh;
+}
+
+.innerfooter1 button {
+    gap: 2px;
+    width: 110px;
+    padding-top: 2%;
+    border: 0;
+    border: 1px solid rgba(0, 0, 0, 0.118) ;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.innerfooter2{
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+    display: flex;
+    margin-bottom: 3%;
+}
+.innerfooter2_1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.innerfooter2_2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.innerfooter2_3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.innerfooter2_4{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.innerfooter2_5{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.innerfooter2_5 img{
+    height: 6vh;
+    margin-top: 3%;
+}
