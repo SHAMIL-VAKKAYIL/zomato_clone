@@ -20,7 +20,7 @@ function Zomato() {
                         <ul>
                             <li>Investor Relations</li>
                             <li>Add restaurent</li>
-                            <li>Log in</li>
+                            <li>log in</li>
                             <li>Sign up</li>
                         </ul>
                     </div>
